@@ -28,6 +28,7 @@ function CustomTabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
   return (
     <div
+      key={index}
       role="tabpanel"
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
@@ -312,7 +313,7 @@ const Marketplace = () => {
 
             <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {currentPageItems.map((item: any, index: number) => (
-                <ListedTabs items={item} coin={coin} />
+                <ListedTabs items={item} key={index} coin={coin} />
               ))}
             </div>
             <div className="py-[40px] flex justify-center">
