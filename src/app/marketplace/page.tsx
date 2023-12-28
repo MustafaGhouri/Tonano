@@ -237,7 +237,7 @@ const Marketplace = () => {
         <CustomTabPanel value={value} index={0}>
           <Box>
             <Box className="flex flex-row md:mt-16 mt-0 mb-16">
-              <div className="bg-none text-white transition-shadow border border-opacity-25 overflow-x-scroll  rounded-lg py-[16px]">
+              <div className="bg-none text-white transition-shadow border border-opacity-25 overflow-x-auto  rounded-lg py-[16px]">
                 <div className="flex flex-row items-center h-full">
                   <h5 className="m-0 text-1.5xl leading-1.334 text-yellow-400 font-bold pl-6">
                     {coin}
