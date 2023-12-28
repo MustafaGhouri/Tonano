@@ -205,8 +205,8 @@ const Marketplace = () => {
               value={value}
               onChange={handleChange}
               aria-label="basic tabs example"
-              sx={{ width: matches900px ? "auto" : "100%" }}
-              className="order-3 md:order-[unset]  m-0  "
+              sx={{ width: matches900px ? "auto" : "100%", margin: 0 }}
+              className="order-3 md:order-[unset]  "
             >
               <MyTab label="Listed" {...a11yProps(0)} />
               <MyTab label="My Orders" {...a11yProps(1)} />
