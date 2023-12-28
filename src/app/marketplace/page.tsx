@@ -250,7 +250,7 @@ const Marketplace = () => {
                     <p className="m-0 font-normal text-xs leading-1.43 whitespace-nowrap">
                       434,059.403 Ton
                     </p>
-                    <span className="m-0 font-normal text-xs leading-1.66 text-white opacity-45 whitespace-nowrap">
+                    <span className="m-0 font-normal text-xs leading-1.66 text-[#939393] opacity-45 whitespace-nowrap">
                       ≈ $941,908.904
                     </span>
                   </div>
@@ -263,7 +263,7 @@ const Marketplace = () => {
                     <p className="m-0 font-normal text-xs leading-1.43 whitespace-nowrap">
                       31,431.885 TON
                     </p>
-                    <span className="m-0 font-normal text-xs leading-1.66 text-white opacity-45 whitespace-nowrap">
+                    <span className="m-0 font-normal text-xs leading-1.66 text-[#939393] opacity-45 whitespace-nowrap">
                       ≈ $68,207.19
                     </span>
                   </div>
@@ -276,7 +276,7 @@ const Marketplace = () => {
                     <p className="m-0 font-normal text-xs leading-1.43 whitespace-nowrap">
                       0.00155 TON
                     </p>
-                    <span className="m-0 font-normal text-xs leading-1.66 text-white opacity-45 whitespace-nowrap">
+                    <span className="m-0 font-normal text-xs leading-1.66 text-[#939393] opacity-45 whitespace-nowrap">
                       ≈ $0.0033635
                     </span>
                   </div>
@@ -289,7 +289,7 @@ const Marketplace = () => {
                     <p className="m-0 font-normal text-xs leading-1.43 whitespace-nowrap">
                       3,255,000 TON
                     </p>
-                    <span className="m-0 font-normal text-xs leading-1.66 text-white opacity-45 whitespace-nowrap">
+                    <span className="m-0 font-normal text-xs leading-1.66 text-[#939393] opacity-45 whitespace-nowrap">
                       ≈ $7,063,350
                     </span>
                   </div>
