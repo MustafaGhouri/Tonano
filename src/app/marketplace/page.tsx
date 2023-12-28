@@ -205,7 +205,8 @@ const Marketplace = () => {
               value={value}
               onChange={handleChange}
               aria-label="basic tabs example"
-              className="order-3 md:order-[unset] w-full m-0   md:w-auto"
+              sx={{ width: matches900px ? "auto" : "100%" }}
+              className="order-3 md:order-[unset]  m-0  "
             >
               <MyTab label="Listed" {...a11yProps(0)} />
               <MyTab label="My Orders" {...a11yProps(1)} />
@@ -266,9 +267,7 @@ const Marketplace = () => {
                       ≈ $68,207.19
                     </span>
                   </div>
-                  <hr 
-                    className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white h-full"
-                  />
+                  <hr className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white h-full" />
                   {/* ---Floor Price ---  */}
                   <div className="  text-center">
                     <p className="m-0 font-normal text-base leading-1.5 whitespace-nowrap">
@@ -281,10 +280,7 @@ const Marketplace = () => {
                       ≈ $0.0033635
                     </span>
                   </div>
-                  <hr
-                    
-                    className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white h-full"
-                  />
+                  <hr className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white h-full" />
                   {/* ---Floor Price ---  */}
                   <div className="text-center pr-[24px]">
                     <p className="m-0 font-normal text-base leading-1.5 whitespace-nowrap">
