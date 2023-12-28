@@ -144,7 +144,7 @@ const MarketPlacePagination = styled(Pagination)({
   },
 
   ".Mui-selected": {
-    backgroundColor: "#4B4B4B",
+    backgroundColor: "#4B4B4B !important",
   },
 });
 
@@ -237,7 +237,7 @@ const Marketplace = () => {
           <Box>
             <Box className="flex flex-row md:mt-16 mt-0 mb-16">
               <div className="bg-none text-white transition-shadow border border-opacity-25 overflow-x-scroll  rounded-lg py-[16px]">
-                <div className="flex flex-row items-center">
+                <div className="flex flex-row items-center h-full">
                   <h5 className="m-0 text-1.5xl leading-1.334 text-yellow-400 font-bold pl-6">
                     {coin}
                   </h5>
@@ -253,11 +253,7 @@ const Marketplace = () => {
                       ≈ $941,908.904
                     </span>
                   </div>
-                  <Divider
-                    orientation="vertical"
-                    flexItem
-                    className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white"
-                  />
+                  <hr className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white h-full" />
                   {/* --- Hour Vol ---  */}
                   <div className="  text-center">
                     <p className="m-0 font-normal text-base leading-1.5 whitespace-nowrap">
@@ -270,10 +266,8 @@ const Marketplace = () => {
                       ≈ $68,207.19
                     </span>
                   </div>
-                  <Divider
-                    orientation="vertical"
-                    flexItem
-                    className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white"
+                  <hr 
+                    className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white h-full"
                   />
                   {/* ---Floor Price ---  */}
                   <div className="  text-center">
@@ -287,10 +281,9 @@ const Marketplace = () => {
                       ≈ $0.0033635
                     </span>
                   </div>
-                  <Divider
-                    orientation="vertical"
-                    flexItem
-                    className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white"
+                  <hr
+                    
+                    className="m-0 mx-4 flex-shrink-0 border-t border-r border-b border-opacity-25 border-white h-full"
                   />
                   {/* ---Floor Price ---  */}
                   <div className="text-center pr-[24px]">
