@@ -314,10 +314,10 @@ const Marketplace = () => {
           </Box>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          Item Two
+          <p className="text-center py-3"> My Orders</p>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          Item Three
+          <p className="text-center py-3">Activites</p>
         </CustomTabPanel>
       </Box>
     </div>
