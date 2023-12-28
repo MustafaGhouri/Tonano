@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab"; 
+import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import { styled } from "@mui/material/styles";
 import {
@@ -182,8 +182,8 @@ const Marketplace = () => {
     <div className="flex flex-col items-center justify-center py-[40px] container mx-auto">
       <Box sx={{ width: "100%" }}>
         <Box sx={{ width: "100%" }}>
-          <div className="mt-8 flex md:flex-row flex-wrap items-center px-2">
-            <div className="mr-[16px] ">
+          <div className="mt-8 gap-4  flex md:flex-row flex-wrap items-center px-[20px] md:px-2">
+            <div className="  ">
               <MarketPlaceSelect
                 value={coin}
                 onChange={handleInputChange}
@@ -213,7 +213,7 @@ const Marketplace = () => {
             </MyTabs>
             <div className="flex-1"> </div>
 
-            <MarketPlaceSortSelect sx={{ m: 1, minWidth: 120 }} size="small">
+            <MarketPlaceSortSelect sx={{ minWidth: 120 }} size="small">
               <InputLabel id="sort-label">Sort</InputLabel>
               <Select
                 labelId="sort-label"
@@ -227,17 +227,15 @@ const Marketplace = () => {
               </Select>
             </MarketPlaceSortSelect>
 
-            {matches900px && (
-              <button className="bg-[#0098ea]  hover:scale-10 text-[#fff] text-lg font-bold py-2 px-[24px] rounded-full inline-flex items-center">
-                Quick List
-              </button>
-            )}
+            <button className="bg-[#0098ea]  hover:scale-10 text-[#fff] text-lg font-bold py-2 px-[24px] rounded-full  md:inline-flex hidden items-center">
+              Quick List
+            </button>
           </div>
         </Box>
 
         <CustomTabPanel value={value} index={0}>
           <Box>
-            <Box className="flex flex-row mt-16 mb-16">
+            <Box className="flex flex-row md:mt-16 mt-0 mb-16">
               <div className="bg-none text-white transition-shadow border border-opacity-25 overflow-x-scroll  rounded-lg py-[16px]">
                 <div className="flex flex-row items-center">
                   <h5 className="m-0 text-1.5xl leading-1.334 text-yellow-400 font-bold pl-6">
